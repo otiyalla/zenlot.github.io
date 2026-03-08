@@ -3,174 +3,132 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Zenlot App Support" />
   <title>Zenlot Support</title>
   <style>
-    :root {
-      --bg: #0f172a;
-      --card: #111827;
-      --text: #e5e7eb;
-      --muted: #94a3b8;
-      --accent: #8b5cf6;
-      --accent-2: #22c55e;
-      --border: rgba(255,255,255,0.08);
-    }
-
-    * { box-sizing: border-box; }
-
     body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #0b1020 0%, #111827 100%);
-      color: var(--text);
+      padding: 0;
       line-height: 1.6;
     }
 
-    .container {
+    header {
+      background: #111827;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    main {
       max-width: 900px;
-      margin: 0 auto;
-      padding: 48px 20px 64px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
 
-    .hero {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 32px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-    }
-
-    h1, h2, h3 {
-      line-height: 1.2;
+    h1, h2 {
       margin-top: 0;
     }
 
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      font-size: 1.35rem;
-      margin-bottom: 12px;
-      color: #ffffff;
-    }
-
-    p { margin: 0 0 14px; }
-
-    .subtext {
-      color: var(--muted);
-      max-width: 700px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 20px;
-      margin-top: 28px;
-    }
-
-    .card {
-      background: rgba(255,255,255,0.03);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 22px;
-    }
-
-    a {
-      color: #c4b5fd;
-      text-decoration: none;
-    }
-
-    a:hover { text-decoration: underline; }
-
-    .cta {
-      display: inline-block;
-      margin-top: 8px;
-      background: var(--accent);
-      color: white;
-      padding: 12px 18px;
-      border-radius: 12px;
-      font-weight: 700;
-    }
-
-    .badge {
-      display: inline-block;
-      font-size: 0.85rem;
-      background: rgba(34,197,94,0.12);
-      color: #86efac;
-      border: 1px solid rgba(34,197,94,0.25);
-      padding: 6px 10px;
-      border-radius: 999px;
-      margin-bottom: 16px;
-    }
-
-    ul {
-      padding-left: 20px;
-      margin: 0;
+    section {
+      margin-bottom: 30px;
     }
 
     footer {
-      margin-top: 28px;
-      color: var(--muted);
-      font-size: 0.95rem;
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
     }
 
-    .small {
-      color: var(--muted);
-      font-size: 0.95rem;
+    .email {
+      font-weight: bold;
+      color: #2563eb;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <section class="hero">
-      <div class="badge">Zenlot App Support</div>
-      <h1>Need help with Zenlot?</h1>
-      <p class="subtext">
-        Zenlot is a risk management app designed to help traders manage risk, stay disciplined,
-        and make better trading decisions. If you need support, have a question, or want to report
-        a bug, use the contact options below.
-      </p>
 
-      <div class="grid">
-        <div class="card">
-          <h2>Contact Support</h2>
-          <p>Email: <a href="mailto:info@zenlot.net">info@zenlot.com</a></p>
-          <a class="cta" href="mailto:info@zenlot.net">Email Support</a>
-        </div>
+<header>
+  <h1>Zenlot Support</h1>
+  <p>Help and support for Zenlot users</p>
+</header>
 
-        <div class="card">
-          <h2>What to include</h2>
-          <ul>
-            <li>Your device model and operating system</li>
-            <li>Your app version</li>
-            <li>A short description of the issue</li>
-            <li>Screenshots, if relevant</li>
-          </ul>
-        </div>
+<main>
 
-        <div class="card">
-          <h2>Common help topics</h2>
-          <ul>
-            <li>Account access and sign-in issues</li>
-            <li>Password reset help</li>
-            <li>Bug reports and app performance issues</li>
-            <li>Feature questions and feedback</li>
-          </ul>
-        </div>
+  <section>
+    <h2>About Zenlot</h2>
+    <p>
+      Zenlot is a risk management tool designed to help traders plan trades,
+      manage risk, and track trading performance more effectively.
+    </p>
+  </section>
 
-        <div class="card">
-          <h2>Response time</h2>
-          <p>We aim to respond to support requests as quickly as possible.</p>
-          <p class="small">You can adjust this wording to match your actual support process.</p>
-        </div>
-      </div>
+  <section>
+    <h2>Account Access and Sign-In Issues</h2>
+    <p>
+      If you cannot sign in to your account, ensure that you are using the
+      email address associated with your Zenlot account.
+    </p>
 
-      <footer>
-        <p>Support page for the Zenlot mobile app and website.</p>
-      </footer>
-    </section>
-  </div>
+    <h3>Password Reset</h3>
+    <p>To reset your password:</p>
+    <ol>
+      <li>Open the Zenlot app.</li>
+      <li>Go to the <strong>Sign In</strong> page.</li>
+      <li>Tap <strong>Forgot Password</strong>.</li>
+      <li>Enter the email address you used when signing up.</li>
+      <li>Follow the instructions sent to your email.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Bug Reports and App Performance Issues</h2>
+    <p>
+      If you encounter bugs, performance issues, or unexpected behavior in the app,
+      you can report them directly within Zenlot.
+    </p>
+
+    <p>To report a bug or provide feedback:</p>
+
+    <ol>
+      <li>Open the Zenlot app.</li>
+      <li>Navigate to <strong>Profile</strong>.</li>
+      <li>Scroll to the <strong>Account Actions</strong> section.</li>
+      <li>Select <strong>Give Feedback</strong>.</li>
+      <li>You can submit:
+        <ul>
+          <li>Bug reports</li>
+          <li>Performance issues</li>
+          <li>Feature requests</li>
+          <li>Questions</li>
+          <li>General feedback</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Additional Support</h2>
+    <p>
+      If you are unable to resolve your issue through the app, you may contact
+      Zenlot support directly.
+    </p>
+
+    <p>
+      Email: <span class="email">info@zenlot.net</span>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 Zenlot. All rights reserved.
+</footer>
+
 </body>
 </html>
